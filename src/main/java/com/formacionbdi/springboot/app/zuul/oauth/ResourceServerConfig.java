@@ -43,7 +43,7 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	     
 	     .antMatchers("/api/productos/**","/api/items/**","/api/usuarios/**").hasRole("ADMIN") // permiso para admin, generico para post put y delete
 		
-	     .antMatchers().authenticated();
+	     .anyRequest().authenticated();
 	}
 	
 	
