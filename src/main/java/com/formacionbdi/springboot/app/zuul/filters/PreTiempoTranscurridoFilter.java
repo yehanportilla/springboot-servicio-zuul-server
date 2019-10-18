@@ -2,7 +2,6 @@ package com.formacionbdi.springboot.app.zuul.filters;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.apache.http.protocol.RequestContent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
